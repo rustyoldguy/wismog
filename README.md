@@ -14,5 +14,7 @@ It is written for geman language. But it can create greek and french
 characters, umlauts like ö,ä,ü, numbers, punctuation marks.
 A screenshot of the Program is file wismog.jpg.
 
+It is created on SUSE LINUX tumbleweed.
+
 
 
