@@ -8,7 +8,7 @@ Alsa must be included:
 Attention! It could be loud!
 After i went for a walk (easter 2010), i had a collision with a car. 
 I had a temporal bone fracture lost my left vestibular system and 
-became deaf at my left side, hard of hearing at the richt side,
+became deaf at my left side, hard of hearing at the right side,
 lost parts of spatial imagination and needed six month to can 
 drive motorcycle again. 
 
