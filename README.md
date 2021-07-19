@@ -10,7 +10,7 @@ After i went for a walk (easter 2010), i had a collision with a car.
 I had a  temporal bone fracture lost my left vestibular system and 
 became hard of hearing.
 
-It is written for gernam language. But it can create greekand french 
+It is written for geman language. But it can create greekand french 
 characters, umlaut like ö,ä,ü, numbers, punctuation marks.
 
 
