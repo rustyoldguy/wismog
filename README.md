@@ -1,5 +1,5 @@
 # wismog
-Wismog is a program to create more signs with the sound card.
+Wismog is a program to create morse signs with the sound card.
 Alsa must be included:
 
 #include <alsa/asoundlib.h>
