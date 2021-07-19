@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="finito">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>430</y>
+      <width>88</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="genletter">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>430</y>
+      <width>131</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>generiere Zeichen</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_Frequenz">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Frequenz:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>571</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbZeichenliste">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>430</y>
+      <width>111</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zeichenliste</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_mspeed">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>41</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>30</y>
+      <width>51</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Speed:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_setspeed">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>20</y>
+      <width>88</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set Speed</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>83</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbx_zahlen">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>170</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zahlen</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbx_szeichen">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>210</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Satzzeichen</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbx_letter">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>90</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buchstaben</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbx_umlaute">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>130</y>
+      <width>88</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Umlaute</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbx_francais">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>250</y>
+      <width>88</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>francais</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbx_griechische">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>290</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>griechische</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="SliderVolume">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>460</y>
+      <width>160</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ltest">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>510</y>
+      <width>131</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sezte Lautstaerke</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>420</y>
+      <width>81</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lautstaerke</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>807</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuInfo">
+    <property name="title">
+     <string>I&amp;nfo</string>
+    </property>
+    <addaction name="actionAutor"/>
+   </widget>
+   <widget class="QMenu" name="menuBearbeiten">
+    <property name="title">
+     <string>Bearbei&amp;ten</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionCLS_Textfeld"/>
+    <addaction name="actionZeige_alle_Zeichen"/>
+   </widget>
+   <addaction name="menuInfo"/>
+   <addaction name="menuBearbeiten"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAutor">
+   <property name="text">
+    <string>&amp;Autor</string>
+   </property>
+  </action>
+  <action name="actionCLS_Textfeld">
+   <property name="text">
+    <string>&amp;CLS Textfeld</string>
+   </property>
+  </action>
+  <action name="actionZeige_alle_Zeichen">
+   <property name="text">
+    <string>Zeige_alle_Zeichen</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
